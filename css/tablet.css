@@ -1,0 +1,91 @@
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mobile-menu-open {
+            display: none;
+        } 
+
+    .mobile-menu-container {
+            display: none;
+        }
+
+    .page-header-container {
+        justify-content: center;
+    }
+
+   
+}
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+.contacts-info {
+        margin-left: auto;
+        margin-right: 46px;
+    }
+
+.contacts {
+    font-size: 12px;
+    line-height: 1.33;
+}
+
+ .adv-icon {
+     display: none;
+ }
+
+.advantage-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    width: calc(100% - 24px / 2);
+    
+    
+}
+
+.item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+
+}
+
+.advantages-item {
+    width: calc(100% - 24px / 2);
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero-section {
+        background-image: url("../images/tablet/headerbg@2x.jpg");
+    }
+
+}

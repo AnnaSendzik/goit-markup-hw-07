@@ -1,0 +1,53 @@
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contacts-info {
+        display: flex;
+        margin-right: 156px;
+        }
+
+    .web {
+        margin-left: 156px;
+    }
+
+    .advantages {
+        margin-right: 156px;
+        margin-left: 156px;
+    }
+    
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/desktop/header@2x.jpg");
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
