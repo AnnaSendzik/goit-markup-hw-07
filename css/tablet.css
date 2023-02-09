@@ -30,6 +30,10 @@
     display: flex;
     flex-wrap: wrap;
    }
+
+   .subscribe-box {
+       display: flex;
+   }
 }
 
 
@@ -117,9 +121,7 @@
  .footer-email {
     margin-right: 24px
  }
-.subscribe-box {
-    display: flex;
-}
+
 }
 
 
