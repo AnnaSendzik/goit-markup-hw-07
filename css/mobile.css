@@ -239,7 +239,45 @@
     justify-content: center;
     
 }
+.footer-info-box {
+    justify-content: center;
+}
+.footer {
+    background-image: url(../images/mobile/footerbg.jpg);
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.f-logotype {
+    text-align: center;
+}
+.f-social-list {
+    justify-content: center;
+}
+.f-paragraph{
+    margin-right: auto;
+    margin-left: auto;
 
+}
+
+.f-social-media {
+    text-align: center;
+}
+
+.subscribe-box {
+    text-align: center;
+   
+}
+.sudsribing {
+    margin-left: auto;
+}
+
+.subscribe-btn {
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-email {
+    width: 100%;
+}
 }
 
 
@@ -249,6 +287,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/mobile/banner@2x.jpg");
     }
+
+.footer {
+    background-image: url(../images/tablet/footerbg@2x.jpg);
+}
 
 }
 

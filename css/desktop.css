@@ -1,8 +1,6 @@
 
 
 
-
-
 @media screen and (min-width: 1200px) {
     .container {
         width: 100%;
@@ -31,13 +29,30 @@
     }
     
     .customers-list {
-    gap: 24px;
-}
+        gap: 24px;
+    }
 
-     .customers-list-item {
-            width: calc(100% - 120px / 6);
+    .customers-list-item {
+        width: calc(100% - 120px / 6);
+    }
+
+    
+    .footer {
+        background-image: url(../images/desktop/footer.jpg);
+    }
+
+    .footer-info {
+        margin-right: 120px;
     }
     
+    .f-social-list {
+        margin-right: 80px;
+    }
+
+     .subscribe-box {
+            display: flex;
+            gap: 24px;
+        }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -46,6 +61,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/desktop/header@2x.jpg");
     }
+
+    .footer {
+    background-image: url(../images/desktop/footer@2x.jpg);
+}
 
 }
 
