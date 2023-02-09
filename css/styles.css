@@ -23,6 +23,7 @@ ul,ol {
 
 img {
     display: block;
+   
 }
 
 button {
@@ -269,10 +270,6 @@ body {
     gap: 24px;
 }
 
-.advantages-item {
-    flex-basis: calc(100% - 72px / 4);
-}
-
 .item {
     font-weight: 500;
     font-size: 20px;
@@ -292,13 +289,14 @@ body {
 
 
 /*----------ABOUT----------*/
-/* .about-section {
+ .about-section {
     padding-bottom: 120px;
 }
 
 .images-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
     
 }
 .about,
@@ -312,10 +310,10 @@ body {
     color: var(--secondary-color);
     margin-bottom: 72px;
     text-align: center;
-} */
+} 
 
 /*----------EMPLOYEES----------*/
-/* 
+
 .employees-section {
     background-color: var(--cloud-color);
     padding-top: 120px;
@@ -324,10 +322,13 @@ body {
 .team-list {
     background-color: var(--white-color);
     text-align: center;
+
+    
 }
 .employees-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .borders {
@@ -376,10 +377,10 @@ body {
 
 .social-list-icon {
     fill: var(--cloud-color);
-} */
+} 
 
 /*----------CUSTOMER----------*/
-/* 
+
 .customer {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -389,11 +390,9 @@ body {
 .customers-list{
     display: flex;
     justify-content: center;
-    gap: 24px;
     
 }
 .customers-list-item {
-    width: calc(100% - 120px / 6);
     box-sizing: border-box;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -422,7 +421,7 @@ body {
 .customers-list-item:hover .customers-list-icon,
 .customers-list-item:focus .customers-list-icon {
     fill: var(--ocean-color);
-} */
+} 
 
 /*----------FOOTER----------*/
 

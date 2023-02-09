@@ -25,6 +25,18 @@
         margin-right: 156px;
         margin-left: 156px;
     }
+
+    .team-list:not(:last-child) {
+        margin-right: 24px;
+    }
+    
+    .customers-list {
+    gap: 24px;
+}
+
+     .customers-list-item {
+            width: calc(100% - 120px / 6);
+    }
     
 }
 
